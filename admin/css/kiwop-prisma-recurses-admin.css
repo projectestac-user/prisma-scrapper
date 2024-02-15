@@ -1,0 +1,129 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subtabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ktab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.ktab:hover {
+    color: #00f;
+}
+
+
+.subtab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding:5px;
+}
+
+.subtab:hover {
+    color: #00f;
+}
+
+.tab-content {
+    display: none;
+    padding:5px;
+    margin-top: -6px;
+    background-color: #ddd;
+}
+
+.subtab-content {
+    padding:5px;
+    display: none;
+    border:1px solid #ddd;
+    margin-top: -6px;
+    background-color: #ccc;
+    min-height:600px;
+}
+
+.active-tab {
+    background-color: #ddd;
+}
+
+.active-subtab {
+    background-color: #ccc;
+}
+
+.active-content {
+    display: block;
+}
+
+
+
+
+span.pages_label {
+    font-size: 1em;
+    color: #555;            
+    width: 100px;
+    min-width: 100px;
+    text-align: center;
+}
+
+i.a_navigator {
+    color:#555;        
+    padding:3px;
+}
+i.a_navigator:hover {
+    padding:3px;
+    color:#ca4a1f; 
+    cursor: pointer;   
+}
+
+#paginatorImportacions {
+    padding:4px;
+    text-align: center;
+}
+
+i.a_navigator_disabled {
+    color: #aaa;        
+    padding: 3px;
+}
+i.a_navigator_disabled:hover {
+    color: #aaa;    
+    padding: 3px;
+    cursor: inherit;   
+}
+
+
+#tablaImportacions > table thead th {
+    background-color: #f2f2f2;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #000;
+}
+
+
+.form-control::placeholder {
+    color: #aaa !important; /* Cambia este valor al color que desees */
+}

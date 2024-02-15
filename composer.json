@@ -1,0 +1,27 @@
+{
+    "name": "fuent/kiwop-prisma-recurses",
+    "description": "scrapping, aportacions..",
+    "autoload": {
+        "psr-4": {
+            "Fuent\\KiwopPrismaRecurses\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    },    
+    "authors": [
+        {
+            "name": "Antonio Sanchez",
+            "email": "fuenteamarga@gmail.com"
+        }
+    ],
+    "require": {
+        "simplehtmldom/simplehtmldom": "2.0-RC2",
+        "fortawesome/font-awesome": "^6.5",
+        "guzzlehttp/guzzle": "^7.8",
+        "twbs/bootstrap": "^5.3",
+        "neitanod/forceutf8": "~2.0"
+    }
+}
