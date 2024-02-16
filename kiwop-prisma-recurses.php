@@ -13,7 +13,7 @@
  * @package           Kiwop_Prisma_Recurses
  *
  * @wordpress-plugin
- * Plugin Name:       Kiwop - Prisma Recursos Educatius
+ * Plugin Name:       Prisma Scrapper
  * Plugin URI:        https://kiwop.com
  * Description:       Scrapejador de recursos educatius, cercador de recursos escrapejats i assignació massiva de post_type
  * Version:           1.0.0

@@ -189,8 +189,8 @@ class Kiwop_Prisma_Recurses_Admin {
        // echo "mierda"; die();
         
         add_menu_page(
-            'Kiwop',
-            'Kiwop - Prisma recursos',
+            'Prisma scrapper by Kiwop',
+            'Prisma scrapper',
             'manage_options',
             'kiwop-prisma-recursos',
             array($this, 'render_admin_page'),
