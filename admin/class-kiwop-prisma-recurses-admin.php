@@ -176,8 +176,8 @@ class Kiwop_Prisma_Recurses_Admin {
                 'getHTMLScrappings' => wp_create_nonce('getHTMLScrappings_nonce' ),
                 'doSelectedAction' => wp_create_nonce('doSelectedAction_nonce' ),
                 'createCategoriesFromToolBox' => wp_create_nonce('createCategoriesFromToolBox_nonce' ),
-                'loader' => plugin_dir_url("") . '/kiwop-prisma-recurses/admin/img/ajax-loader-mini.gif',
-                'loader_xl' => plugin_dir_url("") . '/kiwop-prisma-recurses/admin/img/ajax-loader.gif',
+                'loader' => plugin_dir_url("") . '/prisma-scrapper/admin/img/ajax-loader-mini.gif',
+                'loader_xl' => plugin_dir_url("") . '/prisma-scrapper/admin/img/ajax-loader.gif',
       
             )
         );
