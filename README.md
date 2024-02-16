@@ -29,6 +29,7 @@ e.g.
 1. install plugin
 2. Go with command line to the plugin dir:
     > npm install
+    
     > composer install
 3. Check that vendor and node_modules directory has been created.
 4. Activate the plugin through the 'Plugins' menu in WordPress
