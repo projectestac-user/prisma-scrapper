@@ -1,15 +1,9 @@
-=== PRISMA SCRAPPER ===
+# PRISMA SCRAPPER 
 Contributors: antonio@kiwop.com
 
 Website: https://kiwop.com/
 
-Tags: comments, spam
-
-requires at least: 3.0.1
-
-Tested up to: 3.4
-
-Stable tag: 4.3
+Tested up to WP Core: 6.3
 
 License: GPLv2 or later
 
@@ -18,11 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Scrapeo de datos de varios sitios webs de educación.
 
-== Dependencies ==
+
+## Dependencies 
 
 You need to have Composer and NPM installed in your system.
 
-== Installation ==
+## Installation 
 
 e.g.
 
