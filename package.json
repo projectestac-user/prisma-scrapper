@@ -1,0 +1,15 @@
+{
+  "name": "prisma-scrapper",
+  "version": "1.0.0",
+  "description": "Contributors: antonio@kiwop.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@canvasjs/charts": "^3.10.21",
+    "js-cookie": "^3.0.5"
+  }
+}
